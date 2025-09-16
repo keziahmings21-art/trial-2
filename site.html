@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoSmart Solution</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- 🌍 Header -->
+  <header class="bg-blue-700 text-white py-6">
+    <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+      <img src="images/logo.png" alt="GeoSmart Solutions Logo" class="h-8 w-auto">
+<h1 class="text-2xl font-bold">GeoSmart Solution</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:text-gray-200">About</a></li>
+          <li><a href="#services" class="hover:text-gray-200">Services</a></li>
+          <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 🏞 Hero Section -->
+  <section class="bg-gray-100 py-20 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl font-extrabold mb-4">Spatial Data, Smarter Decisions</h2>
+      <p class="text-lg text-gray-600 mb-6">We transform geospatial insights into practical solutions for planning, development, and decision-making.</p>
+      <a href="#contact" class="bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- 📖 About Section -->
+  <section id="about" class="py-20">
+    <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <img src="about.png" alt="About GeoSmart" class="rounded-2xl shadow-lg">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">About Us</h2>
+        <p class="text-gray-600 mb-4">At GeoSmart Solution, we specialize in delivering innovative GIS and spatial planning services to support sustainable development. With expertise in urban planning, mapping, and data analysis, we help municipalities, businesses, and organizations unlock the full potential of spatial data.</p>
+        <p class="text-gray-600">Our mission is simple: to empower smarter decisions through geospatial intelligence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🛠 Services Section -->
+  <section id="services" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        
+        <!-- Service 1 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-4">GIS Mapping & Analysis</h3>
+	<img src="images/mapping.jpg" alt="Mapping Service" class="w-full h-48 object-cover">
+          <p class="text-gray-600">High-quality spatial data collection, visualization, and analysis for informed decision-making.</p>
+        </div>
+        
+        <!-- Service 2 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-4">Urban & Regional Planning</h3>
+	<img src="images/planning.jpg" alt="Urban Planning" class="w-full h-48 object-cover">
+          <p class="text-gray-600">Comprehensive planning solutions to support sustainable urban growth and infrastructure development.</p>
+        </div>
+        
+        <!-- Service 3 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-4">Spatial Data Management</h3>
+	<img src="images/analysis.jpg" alt="Data Analysis" class="w-full h-48 object-cover">
+          <p class="text-gray-600">Efficient database creation, management, and integration of spatial datasets for long-term usability.</p>
+        </div>
+        
+        <!-- Service 4 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-4">Infrastructure Planning</h3>
+	<img src="images/analysis.jpg" alt="Remote Sensing" class="w-full h-48 object-cover">
+          <p class="text-gray-600">Smart solutions for road networks, utilities, and community infrastructure using geospatial insights.</p>
+        </div>
+        
+        <!-- Service 5 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-4">Environmental Planning</h3>
+	<img src="images/analysis.jpg" alt="Remote Sensing" class="w-full h-48 object-cover">
+          <p class="text-gray-600">Mapping and monitoring of natural resources to promote sustainability and climate resilience.</p>
+        </div>
+        
+        <!-- Service 6 -->
+        <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition">
+          <h3 class="text-xl font-semibold mb-4">Training & Consultancy</h3>
+	<img src="images/analysis.jpg" alt="Remote Sensing" class="w-full h-48 object-cover">
+          <p class="text-gray-600">Capacity building for individuals and institutions in GIS, mapping, and data-driven planning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📩 Contact Section -->
+  <section id="contact" class="py-20 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Contact Us</h2>
+      <p class="text-center text-gray-600 mb-10">
+        Have questions or want to work with us? Fill out the form and we’ll get back to you shortly.
+      </p>
+
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="bg-white p-8 rounded-2xl shadow-lg">
+        <!-- Name -->
+        <div class="mb-6">
+          <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+          <input type="text" id="name" name="name" required
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+
+        <!-- Email -->
+        <div class="mb-6">
+          <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+          <input type="email" id="email" name="_replyto" required
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+
+        <!-- Message -->
+        <div class="mb-6">
+          <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+          <textarea id="message" name="message" rows="5" required
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit"
+          class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+<section class="py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
+    <div class="max-w-xl mx-auto text-center">
+         <p class="mb-2">📞 Phone: 0531661511 / 0504539367</p>
+      <p class="mb-2">📍 Location: Kumasi, Ghana</p>
+    </div>
+  </section>
+
+  <!-- ⚡ Footer -->
+  <footer class="bg-blue-700 text-white py-6 mt-10">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p>&copy; 2025 GeoSmart Solution. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
